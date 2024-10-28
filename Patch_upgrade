@@ -1,0 +1,7 @@
+---
+- name: Upgrade only security patches
+  hosts: all
+  gather_facts: True
+  tasks:
+   - name: Display user
+     

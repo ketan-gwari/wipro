@@ -40,3 +40,4 @@
    - name: Validating the packages
      debug:
       msg: "{{ yumout.stdout }}"
+
